@@ -1,0 +1,6 @@
+uint8[] motor_ids
+float32[] goal_poses
+float32[] speeds
+float32[] accelerations
+---
+string response
