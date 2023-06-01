@@ -10,6 +10,7 @@ project(dynamixel_arm_srv)
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
+  trajectory_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -57,6 +58,7 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    MoveitController.srv
    MoveJoints.srv
+   TrajectoryMoveit.srv
  )
 
 ## Generate actions in the 'action' folder
